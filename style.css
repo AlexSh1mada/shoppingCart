@@ -50,14 +50,14 @@ nav {
     color: #240A34;
     font-weight: 500;
     -webkit-font-soothing: antialiased;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .blue-button {
     background-color: #EABE6C;
     color: #240A34;
     border: none;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
     -webkit-font-soothing: antialiased;
     transition: 0.3s ease-in-out;
@@ -114,9 +114,9 @@ nav {
 
 #home-top-text button {
     margin-top: 30px;
-    padding: 17px 45px;
+    padding: 14px 35px;
     border-radius: 7px;
-    font-size: 20px;
+    font-size: 25px;
     cursor: pointer ;
 }
 
@@ -163,7 +163,7 @@ nav {
     display: flex;
     place-items: center;
     justify-content: center;
-    transition: 0.4s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 
 .collection-icon:hover {
