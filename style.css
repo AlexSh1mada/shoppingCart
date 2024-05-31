@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap');
+
+
+* {
+    font-family: 'Jacquard 12', 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #FFEDD8;
+}
+
+/*NAV-BAR*/
+
+nav {
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+#nav-bar {
+    width:85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+#nav-bar-links {
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+}
+
+#nav-bar-links ul {
+    list-style: none;
+    display: flex;
+}
+
+#nav-bar-links li {
+    margin-left: 60px;
+    
+}
+
+#nav-bar-links a {
+    text-decoration: none;
+    color: #240A34;
+    font-weight: 500;
+    -webkit-font-soothing: antialiased;
+    font-size: 18px;
+}
+
+.blue-button {
+    background-color: #EABE6C;
+    color: #240A34;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    -webkit-font-soothing: antialiased;
+    transition: 0.3s ease-in-out;
+}
+
+.blue-button:hover {
+    background-color: #f4d498;
+}
+
+#nav-bar-links button {
+    margin-left: 60px;
+    padding: 8px 20px;
+    border-radius: 7px;
+}
+
+/* TOP SECTION */
+
+#home-top-container {
+    background-color: #FFEDD8;
+    height: 80vh;
+    padding: 20px;
+    padding-top: 150px;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+#home-top-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 85%;
+    place-items: center;
+}
+
+#home-top-text {
+    width: 50%;
+}
+
+#home-top-text h1 {
+    color:#240A34;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+#home-top-text p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: #36154b;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+#home-top-text button {
+    margin-top: 30px;
+    padding: 17px 45px;
+    border-radius: 7px;
+}
+
+#home-top-img img {
+    max-width: 350px;
+}
