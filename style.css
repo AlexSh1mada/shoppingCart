@@ -8,7 +8,7 @@
 }
 
 body {
-    background: #FFEDD8;
+    background: white;
 }
 
 /*NAV-BAR*/
@@ -71,6 +71,7 @@ nav {
     margin-left: 60px;
     padding: 8px 20px;
     border-radius: 7px;
+    cursor: pointer;
 }
 
 /* TOP SECTION */
@@ -115,8 +116,67 @@ nav {
     margin-top: 30px;
     padding: 17px 45px;
     border-radius: 7px;
+    font-size: 20px;
+    cursor: pointer ;
 }
 
 #home-top-img img {
     max-width: 350px;
+}
+
+/* COLLECTION SECTION */
+#collection-container {
+    background-color: #EABE6C;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    padding: 20px;
+}
+
+#collection-container h1 {
+    color:#36154b;
+    font-weight: 600;
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+#collection-items-wrapper {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    padding: 50px;
+}
+
+.collection-item {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+.collection-icon {
+    background-color: #FFEDD8;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.3);
+    color: rgb(64, 64, 64);
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    transition: 0.4s ease-in-out;
+}
+
+.collection-icon:hover {
+    background-color: #891652;
+    color:#FFEDD8;
+}
+
+/* .collection-icon svg {
+    color:#36154b;
+} */
+
+.collection-name {
+    margin-top: 20px;
+    font-size: 25px;
+    color: #36154b;
 }
