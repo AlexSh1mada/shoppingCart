@@ -249,6 +249,7 @@ ul.product-section-items-wrapper {
     color: #36154b;
     font-size: 20px;
     font-weight: 600;
+    -webkit-font-smoothing: antialiased;
 }
 
 .product-purchase {
@@ -286,4 +287,75 @@ ul.product-section-items-wrapper {
     margin-bottom: 50px;
     display: flex;
     justify-content: center;
+}
+
+.promo-box {
+    display: flex;
+    flex-direction: row;
+    width: 68%;
+    height: 450px;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 50px;
+    overflow: hidden;
+}
+
+.promo-image {
+    background-color: #f4d498;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    padding: 40px;
+    width: 100%;
+}
+
+.promo-image img {
+    width: 90%;
+}
+
+.promo-content {
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background-color:#EABE6C;
+}
+
+.promo-content h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #421c5a;
+    font-size: 30px;
+    -webkit-font-smoothing: antialiased;
+    margin-bottom: 10px;
+}
+
+.promo-content h2 {
+    color: #36154b;
+    font-size: 50px;
+    -webkit-font-smoothing: antialiased;
+    margin-bottom:20px ;
+}
+
+.promo-content p {
+    color: #421c5a;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.promo-content button.promo-button {
+    padding: 14px 30px;
+    background-color: #891652;
+    color: #FFEDD8;
+    font-size: 25px;
+    -webkit-font-smoothing: antialiased;
+    border: 0;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+}
+
+.promo-content button.promo-button:hover {
+    color: white;
+    background-color: #421c5a
 }
