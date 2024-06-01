@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Jacquard+12&display=swap');
 
 
 * {
-    font-family: 'Jacquard 12', 'Poppins', sans-serif;
+    font-family: 'Jacquard 12', 'IBM Plex Mono', 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -345,9 +347,11 @@ ul.product-section-items-wrapper {
 }
 
 .promo-content button.promo-button {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
     padding: 14px 30px;
     background-color: #891652;
-    color: #FFEDD8;
+    color: white;
     font-size: 25px;
     -webkit-font-smoothing: antialiased;
     border: 0;
@@ -357,5 +361,73 @@ ul.product-section-items-wrapper {
 
 .promo-content button.promo-button:hover {
     color: white;
-    background-color: #421c5a
+    background-color: #a42a69;
 }
+
+/* FOOTER SECTION */
+
+footer {
+    background-color: #EABE6C;
+    text-align: center;
+    padding: 30px;
+    color: rgb(64,64,64);
+}
+
+#footer-top {
+    padding: 20px;
+    width: 60%;
+    margin: auto;
+}
+
+#footer-socials-wrapper {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.footer-socials {
+   display: flex;
+   place-items: center;
+}
+
+.footer-socials span {
+    font-family: "IBM Plex Mono", monospace;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+#footer-bottom {
+    list-style:none;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    border-top: 1px solid #a09071;
+    padding-top: 30px;
+    margin-top: 20px;
+
+    & ul {
+        list-style: none;
+        display: flex;
+    }
+
+    & li a {
+        font-family: "IBM Plex Mono", monospace;
+        margin: 20px;
+        text-decoration: none;
+        color: rgb(64,64,64);
+        transition: 0.3s ease-in-out;
+    }
+
+    & p {
+        font-family: "IBM Plex Mono", monospace;
+    }
+}
+
+#footer-bottom a:hover {
+    color: #891652;
+}
+
+
+
