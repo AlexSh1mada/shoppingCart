@@ -32,6 +32,19 @@ nav {
     padding: 15px;
 }
 
+#nav-bar-logo a {
+    text-decoration: none;
+    color: #240A34;
+    font-weight: 600;
+    -webkit-font-soothing: antialiased;
+    font-size: 20px;
+    transition: .2s ease-in-out;
+}
+
+#nav-bar-logo a:hover {
+    color: #891652;
+}
+
 #nav-bar-links {
     display: flex;
     flex-direction: row;
@@ -56,7 +69,8 @@ nav {
     font-size: 20px;
 }
 
-#nav-bar-links a:hover {
+#nav-bar-links a:hover,
+#nav-bar-links a.active {
     color: #891652;
     transition: 0.1s ease-in-out;
 }
