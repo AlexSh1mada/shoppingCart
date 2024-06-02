@@ -20,6 +20,7 @@ nav {
     position: fixed;
     width: 100%;
     z-index: 1000;
+    transition: 0.1s ease-in-out;
 }
 
 #nav-bar {
@@ -50,9 +51,14 @@ nav {
 #nav-bar-links a {
     text-decoration: none;
     color: #240A34;
-    font-weight: 500;
+    font-weight: 600;
     -webkit-font-soothing: antialiased;
     font-size: 20px;
+}
+
+#nav-bar-links a:hover {
+    color: #891652;
+    transition: 0.1s ease-in-out;
 }
 
 .blue-button {
