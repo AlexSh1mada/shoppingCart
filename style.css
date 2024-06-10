@@ -417,6 +417,19 @@ footer {
     font-size: 16px;
 }
 
+.footer-socials a {
+    font-family: "IBM Plex Mono", monospace;
+    margin-left: 20px;
+    font-size: 16px;
+    color: currentColor;
+    text-decoration: none;
+    
+    &:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
+
 #footer-bottom {
     list-style:none;
     display: flex;
